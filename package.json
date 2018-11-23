@@ -379,5 +379,9 @@
       "maxSize": "30 kB"
     }
   ],
-  "snyk": true
+  "snyk": true,
+  "sideEffects": [
+    "**/locale/*/*.js",
+    "**/*.(css|scss|svg|jpg|png|gif|webm|mp4|otf|woff|woff2)"
+  ]
 }
